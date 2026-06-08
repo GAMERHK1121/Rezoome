@@ -1,0 +1,166 @@
+@font-face {
+    font-family: Bnazanin;
+    src: url(/font/B-NAZANIN.TTF);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Bnazanin;
+    background: linear-gradient(135deg,#667eea 0%,#764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+}
+
+.card {
+    background: white;
+    border-radius: 28px;
+    padding: 30px 24px 40px;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+h1 {
+    font-size: 26px;
+    color: #1a1a2e;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 14px;
+    margin-top: 30px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.app-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 30px;
+}
+
+.app-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    width: 100%;
+    color: white;
+}
+
+.app-btn:hover {
+    transform: rotateY(-2px);
+    filter: brightness(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.app-btn:active {
+    transform: rotateY(1px);
+}
+
+.btn-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn-icon {
+    font-size: 26px;
+}
+
+.arrow-icon {
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+/* Colors */
+.eitaa { background-color: #ff7300;}
+.rubika { background-color: #1ee928;}
+.soroush {background-color: #2196F3;}
+.telegram { background-color: #0088cc;}
+
+.note {
+    background-color: #f8f9fa;
+    padding: 16px;
+    border-radius: 18px;
+    font-size: 16px;
+    color: #555;
+    text-align: right;
+    line-height: 1.6;
+}
+
+.custom-section {
+    margin-top: 24px;
+    padding-top: 20px;
+    border-top: 1px dashed #ddd;
+}
+
+.custom-title {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    font-size: 14px;
+    font-family: monospace;
+    direction: ltr;
+    text-align: left;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.send-custom {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.send-custom:hover {
+    background-color: #45a049;
+}
+
+.small-note {
+    font-size: 14px;
+    color: #888;
+    margin-top: 8px;
+    text-align: right;
+}

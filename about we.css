@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Bnazanin;
+    src: url(/font/B-NAZANIN.TTF);
+}
+
+*{
+    direction: rtl;
+    font-family: Bnazanin;
+}
+body {
+    background-image:linear-gradient(#fffdfda6, rgba(255, 255, 255, 0.65)), url(/img/45.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.about h2 {
+    font-size: 30px;
+}
+
+.about1 , .about2 , .about3 {
+    font-size: 23px;
+}
+
+.about4 {
+    font-size: 30px;
+}
+
+.about5 , .about6 , .about7 , .about8 {
+    font-size: 23px;
+}
+
+.about9 , .about10 , .about11 {
+    font-size: 24px;
+    font-style: bold;
+}
+
+.about12 {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    border: 4px solid white;
+    border-radius: 20px;
+    padding: 7px;
+    background-color: rgb(104, 104, 104);
+}
+
+.about12:hover {
+    color: black;
+}
